@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+		<head>
+			<meta charset="UTF-8">
+			<title>Crystal Collector</title>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		</head>
+
+	<body>
+        <div class="jumbotron">
+          <h1">Crystal Collector Game</h1>
+        </div>
+
+        <div class="container-fluid" id="info">
+        <div class="row">
+          <div class="col-lg-12">
+            <ol>
+              <li>1. You will be given a random number which is the goal for you to reach.</li>
+              <li>2. By clicking on the crystal below you will increase the total till you reach the Goal.</li>
+              <li>3. Going over the Goal results in a Loss and matching it a Win!</li>
+              <li>* Each crystal has a different value and is random each game.</li>
+            </ol>
+          </div>
+          </div>
+          </div>
+
+          <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6" id="goal">
+            <p class="totalScore">Your Goal: 0</p>
+        </div>
+
+        <section class="crystals">
+          <div class="container-fluid" id="boxcrystals">
+            <div class="crystal diamond" id="diamond">
+            <p>1</p>
+            </div>
+            <div class="crystal pearl" id="pearl">
+            <p>2</p>
+            </div>
+            <div class="crystal sapphire" id="sapphire">
+            <p>3</p>
+            </div>
+            <div class="crystal ruby" id="ruby">
+            <p>4</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6" id="total">
+            <p class="result">Your Total: 0</p>
+        </div>
+
+        <div class="container-fluid" id="userstatus">
+        <div class="row">
+          <div class="col-md-6">
+                <p class="win">Wins: 0</p>
+                <p class="lose">Losses: 0</p>
+          </div>
+        </div>
+        </div>
+     
+
+      <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+	</body>
+
+</html>
+

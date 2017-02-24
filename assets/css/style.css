@@ -1,0 +1,188 @@
+body
+{
+	background-image: url(../images/cave1.jpg);
+	background-size: 100%;
+}
+
+.jumbotron
+{
+	background: none;
+	width: 40%;
+	height: 80px;
+	margin: .5% 2% 2% 30%;
+	padding: 15px 15px 15px 15px;
+	font-size: 35px;
+	color: #00ffff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 14px;
+	border: 2px solid #00ffff;
+}
+
+#info
+{
+	width: 95%;
+	height: 100px;
+	margin: 1% 2% 0% 2.5%;
+	font-size: 18px;
+	color: #00ffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#goal
+{
+	margin: 2% 2% 2% 7%;
+	width: 300px;
+	height: 200px;
+	font-size: 40px;
+	color: #00ffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+
+
+#boxcrystals
+{
+	width: 500px;
+	height: 200px;
+	margin: 2% 0% 2% 0%;
+	border-radius: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border: 1px solid #00ffff;
+	float: left;
+}
+
+#userstatus
+{
+	margin: 3% 0% 3% 39%;
+	width: 300px;
+	height: 120px;
+	text-align: center;
+	font-size: 25px;
+	color: #00ffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#total
+{
+	margin: 2% 2% 2% 2%;
+	width: 300px;
+	height: 200px;
+	font-size: 40px;
+	color: #00ffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#diamond
+{
+	margin: 10px 10px 10px 0px;
+	width: 70px;
+	height: 70px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 14px;
+	background-image: url(../images/diamondpur.png);
+	background-size: 100%;
+}
+
+#pearl
+{
+	margin: 10px;
+	width: 70px;
+	height: 70px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 14px;
+	background-image: url(../images/pearl.png);
+	background-size: 100%;
+}
+
+#sapphire
+{
+	margin: 10px;
+	width: 70px;
+	height: 70px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 14px;
+	background-image: url(../images/sapphire.png);
+	background-size: 100%;
+}
+
+#ruby
+{
+	margin: 10px;
+	width: 70px;
+	height: 70px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 14px;
+	background-image: url(../images/ruby.png);
+	background-size: 100%;
+}
+
+#diamond:hover
+{
+	margin: 10px;
+	width: 75px;
+	height: 75px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 14px;
+	background-image: url(../images/diamondpur.png);
+	background-size: 100%;
+}
+
+#pearl:hover
+{
+	margin: 10px;
+	width: 75px;
+	height: 75px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 14px;
+	background-image: url(../images/pearl.png);
+	background-size: 100%;
+}
+
+#sapphire:hover
+{
+	margin: 10px;
+	width: 75px;
+	height: 75px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 14px;
+	background-image: url(../images/sapphire.png);
+	background-size: 100%;
+}
+
+#ruby:hover
+{
+	margin: 10px;
+	width: 75px;
+	height: 75px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 14px;
+	background-image: url(../images/ruby.png);
+	background-size: 100%;
+}
+
+.crystal p
+{
+	opacity: 0;
+}
